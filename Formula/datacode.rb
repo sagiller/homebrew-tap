@@ -11,21 +11,21 @@ class Datacode < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.5/datacode-darwin-arm64.zip"
-      sha256 "cd8b2c66a60e6921465078301627d7114f2f73e629441fc093103bb635f5d1ad"
+      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.6/datacode-darwin-arm64.zip"
+      sha256 "6b0196df034629a9eb1b2f8a282d1c110a23febca3117f7c75271e979fb05863"
     else
-      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.5/datacode-darwin-x64.zip"
-      sha256 "efe92f57f4acf91260f3106d369e99b81cf887175b073fcb8a078e00ef640271"
+      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.6/datacode-darwin-x64.zip"
+      sha256 "3f790749938f2aefac742360137b17a91375c6bebca4742218054f0fec538a5c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.5/datacode-linux-arm64.tar.gz"
-      sha256 "57e4a6a822f14af594c26d779825f397208d5327ff77f3c8ff46e9412ee3b303"
+      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.6/datacode-linux-arm64.tar.gz"
+      sha256 "08c10c6866e1637c10e5de7b4f7b348ea73bfb033897a551a2972437450bab7d"
     else
-      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.5/datacode-linux-x64.tar.gz"
-      sha256 "f7d4952c79fc9d72e1d73712999e52e4a7375be131fb9e780f11bfc04bb7b4db"
+      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.6/datacode-linux-x64.tar.gz"
+      sha256 "0513848e9010eaed090f616c5e5fde7cd1fd183ee305552c351c26a649c82fff"
     end
   end
 
