@@ -6,6 +6,7 @@ class Datacode < Formula
   desc "AI coding agent for the terminal"
   homepage "https://github.com/sagiller/datacode-releases"
   license "MIT"
+  version "1.0.6"
 
   depends_on "ripgrep"
 
