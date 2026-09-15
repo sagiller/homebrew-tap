@@ -6,27 +6,27 @@ class Datacode < Formula
   desc "AI coding agent for the terminal"
   homepage "https://github.com/sagiller/datacode-releases"
   license "MIT"
-  version "1.0.11"
+  version "1.1.0"
 
   depends_on "ripgrep"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.11/datacode-darwin-arm64.zip"
-      sha256 "fca0fca12384d59d31e8cefc91fe4362ab92a62431c5328a7a3f9dbbe852a2b2"
+      url "https://github.com/sagiller/datacode-releases/releases/download/v1.1.0/datacode-darwin-arm64.zip"
+      sha256 "b48da795f365f4c370c04e5acb85ce639e09f88840baf227e7d84b9ebb18f5ae"
     else
-      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.11/datacode-darwin-x64.zip"
-      sha256 "7c1c392a884ae32f33031e8099ec5c9479aeb85be8b57e5964a9228c6e469655"
+      url "https://github.com/sagiller/datacode-releases/releases/download/v1.1.0/datacode-darwin-x64.zip"
+      sha256 "606a231a05105d99cc718dfc0279d764a0b0ae9566911680a94b36e322211213"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.11/datacode-linux-arm64.tar.gz"
-      sha256 "f4bab14e8161e09d808df5376a9ce5d05cc70fd04e4b2f0815b92d605e9c48e8"
+      url "https://github.com/sagiller/datacode-releases/releases/download/v1.1.0/datacode-linux-arm64.tar.gz"
+      sha256 "017d8d99a02cff91a96a683eb6295aa9b4546293db660fdd9bd60891f5c81fca"
     else
-      url "https://github.com/sagiller/datacode-releases/releases/download/v1.0.11/datacode-linux-x64.tar.gz"
-      sha256 "a20b30c306cfcbf2c5f2bdd8620b78c054180b0e2f15718ca2c4b4938fd6dc8a"
+      url "https://github.com/sagiller/datacode-releases/releases/download/v1.1.0/datacode-linux-x64.tar.gz"
+      sha256 "8df12adf3093f80d0cf891b79bc806171557b2290d903fe9f489e116f92d929f"
     end
   end
 
